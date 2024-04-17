@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <div class="form">
+        <form name="mf">
+            <input type="text" id="result"  placeholder="0"><br>
+
+            <input type="button" value="AC" class="ac" onclick="ac()">
+            <input type="button" value="^" class="ac power" onclick="power()">
+            <input type="button" value="%" class="ac percent" onclick="percent()">
+            <input type="button" value="/" class="or divid" onclick="divid()">
+            <input type="button" value="7" class="n seven" onclick="seven()">
+            <input type="button" value="8" class="n eight" onclick="eight()">
+            <input type="button" value="9" class="n nine" onclick="nine()">
+            <input type="button" value="x" class="or multiply" onclick="multiply()">
+            <input type="button" value="4" class="n four" onclick="four()">
+            <input type="button" value="5" class="n five" onclick="five()">
+            <input type="button" value="6" class="n six" onclick="six()">
+            <input type="button" value="-" class="or minus" onclick="minus()">
+            <input type="button" value="1" class="n one" onclick="one()">
+            <input type="button" value="2" class="n two" onclick="two()">
+            <input type="button" value="3" class="n three" onclick="three()">
+            <input type="button" value="+" class="or plus" onclick="plus()">
+            <input type="button" value="0" class="n z" onclick="z()">
+            <input type="button" value="." class="n dot" onclick="dot()">
+            <input type="button" value="=" class="or equals" onclick="equals()"> 
+
+        </form>
+
+    </div>
+
+    <script src="./ios.js"></script>
+</body>
+
+</html>
